@@ -1,0 +1,38 @@
+.header__title {
+    margin-top: 1853px;
+    margin-left: 171px;
+    width: 1170px;
+    height: 150px;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 42.26px;
+    color: #000000;
+}
+
+.header__separator {
+    margin-top: 0px;
+    margin-left: 671px;
+    width: 170px;
+    height: 0px;
+    border: 1px solid #EC7979;
+}
+
+.header__description {
+    margin-top: 40px;
+    margin-left: 172px;
+    width: 1169px;
+    height: 21px;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 21.13px;
+    color: #86878B;
+
+}
