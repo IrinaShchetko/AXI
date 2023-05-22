@@ -1,69 +1,51 @@
-.awesome__first {
+.section-awesome {
+    width: 1170px;
+    height: 665px;
+    margin-top: 1853px;
     margin-left: 171px;
+
 }
 
-.awesome__first,
-.awesome__second,
-.awesome__third {
-    display: inline-block;
-    width: 370px;
+.section-awesome__content-inner {
+    width: 1170px;
     height: 383px;
-    margin-top: 71px;
 
 }
 
-.awesome__first {
-    margin-left: 171px;
-}
-
-.awesome__second,
-.awesome__third {
-    margin-left: 30px;
-}
-
-.awesome__first-img,
-.awesome__second-img,
-.awesome__third-img {
-    margin-left: 100px;
-    margin-top: 0px;
+.section-awesome__content-inner--img {
     width: 170px;
     height: 170px;
-
+    margin-top: 71px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.awesome__first-title,
-.awesome__second-title,
-.awesome__third-title {
+.section-awesome__content-inner--title {
     width: 369px;
     height: 100px;
+    margin-top: 39px;
     margin-left: 1px;
-    margin-top: 39px; 
-    font-family: 'Abyssinica SIL', serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    text-align: center;
     line-height: 32.68px;
-    color: #000000;
 
 }
 
-.awesome__first-description,
-.awesome__second-description,
-.awesome__third-description {
+.section-awesome__content-inner--description {
     width: 370px;
     height: 105px;
-    margin-left: 0px;
     margin-top: 8px;
-    font-family: 'Abyssinica SIL', serif;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    text-align: center;
     line-height: 21.13px;
+}
+
+.section-awesome__content-inner--title,
+.section-awesome__content-inner--description {
+    display: inline-block;
+    font-style: normal;
+    text-align: center;
     color: #000000;
 }
