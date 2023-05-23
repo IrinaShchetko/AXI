@@ -42,6 +42,7 @@
 
 
 .tab--content {
+   display: inline-block;
  box-sizing: border-box;
  outline-offset: 0px;
  outline: 1px solid #C6CBCD;
