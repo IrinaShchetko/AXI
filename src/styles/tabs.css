@@ -52,8 +52,8 @@
 }
 .tab--content__description {
     display: inline-block; 
-    padding: 100px 6.21px;
-    max-width: 50%;  
+    padding: 100px 26.21px;
+    max-width: 45%;  
 vertical-align:top;
  
 }
@@ -84,6 +84,7 @@ line-height: 20.44px;
 }
 .tab--content__img {
     display: inline-block; 
+   max-width: 40%;
 }
 /* .tab--content__img--picture{
     max-width: 100%;
