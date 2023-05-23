@@ -85,7 +85,7 @@ line-height: 20.44px;
 }
 .tab--content__img {
     display: inline-block; 
-/*    max-width: 40%; */
+   max-width: 40%;
 }
 .tab--content__img--picture{
     max-width: 100%;
