@@ -1,0 +1,89 @@
+
+
+
+.tabs {
+   
+    padding: 50px 0px;
+}
+.buttons{
+    /* background-color: hotpink; */
+    /* border-bottom: 10px solid transparent;
+    border-image: linear-gradient(to right, black 50%, transparent 50%) 1 0 0 0 stretch; */
+    
+}
+.buttons__tab{
+    width: 172.12px;
+    text-transform: uppercase;
+    background-color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.78rem;
+    text-align: center;
+    border:none;
+    /* margin-bottom: 0px; */
+    /* border-bottom: 10px solid white; */
+    /* border-bottom: 1px solid #C6CBCD; */
+}
+/* .buttons__tab.buttons {
+   
+    border-bottom: none;
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+} */
+
+#T{
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: none;
+
+}
+
+
+.tab--content {
+ box-sizing: border-box;
+ outline-offset: 0px;
+ outline: 1px solid #C6CBCD;
+    /* border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD; */
+}
+.tab--content__description {
+    display: inline-block; 
+    padding: 100px 26.21px;
+    max-width: 59%;  
+vertical-align:top;
+ 
+}
+.tab--content__description--title {
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.33rem;
+    line-height: 32.68px;
+   
+}
+.tab--content__description--text {
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 0.78rem;
+line-height: 20.44px;
+}
+.tab--content__description--button {
+    background-color: #EC7979;
+    padding: 10px 50px;
+    max-height: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    
+}
+.tab--content__img {
+    display: inline-block; 
+}
+/* .tab--content__img--picture{
+    max-width: 100%;
+} */
