@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=S, initial-scale=1.0">
     <link href="./src/styles/reset.css" rel="stylesheet">
     <link href="./src/styles/container.css" rel="stylesheet">
+    <link href="./src/styles/tabs.css" rel="stylesheet">
     <link href="./src/styles/header.css" rel="stylesheet">
     <link href="./src/styles/awesome.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,22 +21,36 @@
 
 <body>
     <section class="tabs">
-        <div class="tabs"></div>
-        <div class="text">
-            <h3 class="text__title">Tabs with soft transitioning effect.</h3>
-            <p class="text__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+<div class="container">
+    <div  class="buttons">
+        <button id="T" class="buttons__tab">tab 1</button>
+        <button  class="buttons__tab">tab 2</button>
+        <button  class="buttons__tab">tab 3</button>
+    </div>
+    <div class="tab--content">
+        <div class="tab--content__description">
+            <h2 class="tab--content__description--title">Tabs with soft transitioning effect.</h2>
+            <p class="tab--content__description--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean euismod
                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
                 justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                 penatibus et magnis dis parturient montes.
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                 bibendum laoreet.</p>
-            <button>Download</button>
+            <button class="tab--content__description--button">Download</button>
         </div>
-        <div class="img">
-            <img src="./src/assets/images/TheStatueofLiberty.png" alt="TheStatueofLiberty">
+        <div class="tab--content__img">
+            <img class="tab--content__img--picture" src="./src/assets/images/TheStatueofLiberty.png" alt="TheStatueofLiberty">
         </div>
+    </div>
+</div>
+    
     </section>
+            
+        
+        
+   
     <section class="awesome">
         <div class="container">
             <div class="section-header">
