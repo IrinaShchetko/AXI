@@ -1,0 +1,31 @@
+.section-awesome {
+    text-align: center;
+    padding: 71px 0;
+}
+
+.section-awesome__item {
+    display: inline-block;
+    max-width: 370px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.section-awesome__item--img {
+    width: 170px;
+}
+
+.section-awesome__item--title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.33rem;
+    margin-top: 39px;
+    line-height: 32.68px;
+}
+
+.section-awesome__item--description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 8px;
+    line-height: 21.13px;
+}
