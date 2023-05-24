@@ -1,29 +1,23 @@
 .tabs {
     padding: 50px 0px;
 }
-.buttons{
-    /* background-color: hotpink; */   
+
+.buttons {
+    border-bottom: 1px solid red;
 }
-.buttons__tab{
+
+.buttons__tab {
     width: 172.12px;
     text-transform: uppercase;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 0.78rem;
     text-align: center;
-    border:none;
-        /* border-bottom: 10px solid white; */
-    /* border-bottom: 1px solid #C6CBCD; */
+    border: none;
 }
-/* .buttons__tab.buttons {
-    border-bottom: none;
-    border-top: 1px solid #C6CBCD;
-    border-left: 1px solid #C6CBCD;
-    border-right: 1px solid #C6CBCD;
-} */
 
-#T{
+.buttons__tab:first-child {
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -31,37 +25,36 @@
 }
 
 .tab--content {
- display: inline-block;
- box-sizing: border-box;
- outline-offset: 0px;
- outline: 1px solid #C6CBCD;
-   font-size: 0px;
-    /* border-right: 1px solid #C6CBCD;
-    border-bottom: 1px solid #C6CBCD;
-    border-left: 1px solid #C6CBCD; */
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+    font-size: 0px;
 }
+
 .tab--content__description {
-    display: inline-block; 
+    display: inline-block;
     padding: 100px 36.21px;
-    max-width: 60%;  
-vertical-align:top;
- 
+    max-width: 60%;
+    vertical-align: top;
 }
+
 .tab--content__description--title {
     margin-bottom: 70px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 1.33rem;
     line-height: 32.68px;
-   
 }
+
 .tab--content__description--text {
     margin-bottom: 50px;
     font-family: 'Raleway', sans-serif;
-font-weight: 400;
-font-size: 0.78rem;
-line-height: 20.44px;
+    font-weight: 400;
+    font-size: 0.78rem;
+    line-height: 20.44px;
 }
+
 .tab--content__description--button {
     background-color: #EC7979;
     padding: 10px 50px;
@@ -70,12 +63,13 @@ line-height: 20.44px;
     font-weight: 600;
     font-size: 1rem;
     color: #FFFFFF;
-    
 }
+
 .tab--content__img {
-    display: inline-block; 
-   max-width: 40%;
+    display: inline-block;
+    max-width: 40%;
 }
+
 /* .tab--content__img--picture{
     max-width: 100%;
 } */
