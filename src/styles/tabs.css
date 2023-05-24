@@ -17,12 +17,12 @@
     border: none;
 }
 
-.buttons__tab:first-child {
+/* .buttons__tab:first-child {
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-bottom: none;
-}
+} */
 
 .tab--content {
     display: inline-block;
