@@ -2,11 +2,11 @@
     padding: 50px 0px;
 }
 
-.buttons {
+.tab--buttons {
     border-bottom: 1px solid #C6CBCD;
 }
 
-.buttons__tab {
+.tab--buttons__button {
     max-width: 172.12px;
     text-transform: uppercase;
     background-color: #FFFFFF;
@@ -15,9 +15,11 @@
     font-size: 0.78rem;
     text-align: center;
     border: none;
+    padding: 10px 40px;
 }
 
-.buttons__tab:first-child {
+.tab--buttons__button:first-child {
+    margin-bottom: 0px;
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -70,6 +72,6 @@
     max-width: 40%;
 }
 
-.tab--content__img--picture{
+.tab--content__img--picture {
     max-width: 99.9%;
 }
