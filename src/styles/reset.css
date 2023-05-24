@@ -6,6 +6,11 @@ html{
     font-size: 18px;
     /* rem */
 }
+button{
+    background-color: transparent;
+    border: none;
+    
 
+}
 
 
