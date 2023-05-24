@@ -16,16 +16,15 @@
     font-size: 0.78rem;
     text-align: center;
     border: none;
-    padding: 10px 40px;
+    padding: 5px 50px;
 }
 
 #click {
-    margin-bottom: 0px;
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
-    margin-bottom: -5px;
-    border-bottom: 10px solid white;
+    margin-bottom: -2px;
+    border-bottom: 4px solid white;
 }
 
 .tab--content {
