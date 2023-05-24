@@ -7,6 +7,7 @@
 }
 
 .tab--buttons__button {
+    display: inline-block;
     max-width: 172.12px;
     text-transform: uppercase;
     background-color: #FFFFFF;
@@ -18,12 +19,13 @@
     padding: 10px 40px;
 }
 
-.tab--buttons__button:first-child {
+#click {
     margin-bottom: 0px;
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
-    border-bottom: none;
+    margin-bottom: -5px;
+    border-bottom: 10px solid white;
 }
 
 .tab--content {
