@@ -3,7 +3,7 @@
 }
 
 .buttons {
-    border-bottom: 5px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
 }
 
 .buttons__tab {
@@ -71,5 +71,5 @@
 }
 
 .tab--content__img--picture{
-    max-width: 100%;
+    max-width: 99.9%;
 }
