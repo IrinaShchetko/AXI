@@ -1,0 +1,18 @@
+.pricing {
+}
+
+
+
+.pricing-alternatives {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 300px;
+}
+.pricing-alternatives__basic {
+}
+.pricing-alternatives__optima {
+    align-self: flex-start;
+}
+.pricing-alternatives__pro {
+}
