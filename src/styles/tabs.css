@@ -7,7 +7,7 @@
 }
 
 .buttons__tab {
-    width: 172.12px;
+    max-width: 172.12px;
     text-transform: uppercase;
     background-color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
