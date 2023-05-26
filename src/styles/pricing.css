@@ -1,18 +1,69 @@
-.pricing {
+.pricing>.container{
+    background-color: #F5F5F5;
+    padding: 2.78rem 0;
 }
-
-
-
 .pricing-alternatives {
     display: flex;
     justify-content: space-evenly;
     align-items: end;
-    height: 300px;
+    height: 500px;
 }
-.pricing-alternatives__basic {
-}
-.pricing-alternatives__optima {
-    align-self: flex-start;
-}
+
+.pricing-alternatives__basic,
+.pricing-alternatives__optima,
 .pricing-alternatives__pro {
+    padding-left: 0px;
 }
+
+.pricing-alternatives__optima {
+    align-self: center;
+    -webkit-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
+}
+
+ul li {
+    border: 1px solid #F5F5F5;
+    list-style-type: none;
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 100px;
+}
+.pricing-alternatives__basic--title,
+.pricing-alternatives__optima--title,
+.pricing-alternatives__pro--title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.33rem;
+    color: #FFFFFF;
+}
+
+.pricing-alternatives__basic--cost,
+.pricing-alternatives__optima--cost,
+.pricing-alternatives__pro--cost {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.pricing-alternatives__basic--description,
+.pricing-alternatives__optima--description,
+.pricing-alternatives__pro--description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-alternatives__basic--item,
+.pricing-alternatives__optima--item,
+.pricing-alternatives__pro--item {
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #86878B;
+}
+
+
