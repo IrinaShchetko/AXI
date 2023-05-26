@@ -21,12 +21,12 @@
 </head>
 
 <body>
-    <section class="tabs">
+    <div class="tabs">
         <div class="container">
             <div class="tabs__buttons">
-                <button class="tabs__buttons--button" id="click">tab 1</button>
-                <button class="tabs__buttons--button">tab 2</button>
-                <button class="tabs__buttons--button">tab 3</button>
+                <button class="tabs__button--active" type="button">tab 1</button>
+                <button class="tabs__button--inactive" type="button">tab 2</button>
+                <button class="tabs__button--inactive" type="button">tab 3</button>
             </div>
             <div class="tabs__content">
                 <div class="tabs__content-description">
@@ -39,14 +39,13 @@
                         <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                         bibendum laoreet.
                     </p>
-                    <button class="tabs__content-button">Download</button>
+                    <button class="tabs__content-button" type="button">Download</button>
                 </div>
-                <div class="tabs__content-img">
-                    <img id="liberty" src="./src/assets/images/TheStatueOfLiberty.jpg" alt="TheStatueofLiberty">
-                </div>
+                <img class="tabs__content-img" src="./src/assets/images/TheStatueOfLiberty.jpg"
+                    alt="TheStatueofLiberty">
             </div>
         </div>
-    </section>
+    </div>
     <section class="awesome">
         <div class="container">
 
