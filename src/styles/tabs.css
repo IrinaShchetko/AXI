@@ -6,7 +6,8 @@
     border-bottom: 1px solid #C6CBCD;
 }
 
-.tabs__buttons--button {
+.tabs__button--active,
+.tabs__button--inactive {
     display: inline-block;
     text-transform: uppercase;
     background-color: #FFFFFF;
@@ -16,10 +17,10 @@
     text-align: center;
     border: none;
     padding: 10px 50px;
-    
+    cursor: pointer;
 }
 
-#click {
+.tabs__button--active {
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -42,13 +43,10 @@
     vertical-align: top;
 }
 
-
 .tabs__content-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 1.67rem;
-    line-height: 1.5;
-    text-align: center;
 }
 
 .tabs__content-text {
@@ -67,13 +65,11 @@
     font-weight: 600;
     font-size: 1rem;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .tabs__content-img {
+    max-width: 99.9%;
     display: inline-block;
     max-width: 40%;
-}
-
-#liberty {
-    max-width: 99.9%;
 }
