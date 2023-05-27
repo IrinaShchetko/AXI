@@ -6,8 +6,8 @@
     border-bottom: 1px solid #C6CBCD;
 }
 
-.tabs__button--active,
-.tabs__button--inactive {
+.tabs__item--active,
+.tabs__item--inactive {
     display: inline-block;
     text-transform: uppercase;
     background-color: #FFFFFF;
@@ -20,7 +20,7 @@
     cursor: pointer;
 }
 
-.tabs__button--active {
+.tabs__item--active {
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
