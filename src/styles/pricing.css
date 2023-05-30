@@ -10,12 +10,6 @@
     height: 470px;
 }
 
-.pricing-alternatives__item,
-.pricing-alternatives__item--optima {
-    list-style-type: none;
-    padding-left: 0px;
-}
-
 .pricing-alternatives__item--title,
 .pricing-alternatives__item--cost,
 .pricing-alternatives__item--description,
