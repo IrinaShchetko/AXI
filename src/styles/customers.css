@@ -1,0 +1,77 @@
+.customers {
+    padding: 2.78rem 0;
+}
+
+.section-feedback {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-feedback__item {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    row-gap: 66px;
+}
+
+.quote {
+    position: relative;
+    min-height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #86878B;
+}
+
+.quote__text{
+    position: absolute;
+    top: 15%;
+}
+
+.quote__reference {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+}
+
+.quote__reference::after {
+    content: "";
+}
+
+.customer {
+    min-height: 100px;
+    position: relative;
+}
+
+.customer__photo {
+    position: absolute;
+    left: 2%;
+}
+
+.customer__name {
+    position: absolute;
+    left: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.33rem;
+    color: #000000;
+}
+
+.customer__vocation {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
