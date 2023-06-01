@@ -1,58 +1,77 @@
-.feedback {}
+.customers {
+    padding: 2.78rem 0;
+}
 
 .section-feedback {
+    margin-top: 85px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    min-height: 300px;
 }
 
 .section-feedback__item {
-    position: relative;
     display: flex;
-    border: 10px solid mediumslateblue;
-    /* row-gap: 500px; */
+    flex-direction: column;
+    min-width: 350px;
+    row-gap: 66px;
 }
 
-.section-feedback__item--quote-mark {
-    border: 10px solid red;
-    width: 350px;
-    height: 100px;
+.quote {
+    position: relative;
+    min-height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #86878B;
 }
 
-.section-feedback__item--quote {}
-
-.section-feedback__item--reference {
+.quote__text{
     position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 20px solid red;
-    top: 20%;
-    left: 15%;
+    top: 15%;
 }
 
-.section-feedback__item--reference::after {
+.quote__reference {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+}
+
+.quote__reference::after {
     content: "";
-    top: 150%;
 }
 
-.section-feedback__item--photo {}
+.customer {
+    min-height: 100px;
+    position: relative;
+}
 
-.section-feedback__item--name {}
+.customer__photo {
+    position: absolute;
+    left: 2%;
+}
 
-.section-feedback__item--vocation {}
+.customer__name {
+    position: absolute;
+    left: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.33rem;
+    color: #000000;
+}
 
-.info {
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 250px;
-    align-content: center;
-    align-items: end;
-    border: 5px solid black;
+.customer__vocation {
     position: absolute;
     top: 50%;
-    left: 15%;
+    left: 30%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
 }

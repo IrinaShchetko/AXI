@@ -1,5 +1,5 @@
-.pricing>.container {
-    background-color: #F5F5F5;
+.container{
+    background-color: var(--primary-color);
     padding: 2.78rem 0;
 }
 
