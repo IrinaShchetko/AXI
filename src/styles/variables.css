@@ -1,0 +1,19 @@
+.pricing {
+  --primary-color: #F5F5F5;
+}
+
+:root {
+  --h2-font: 'Open Sans', sans-serif;
+  --h2-font-weight: 700;
+  --h3-font: 'Open Sans', sans-serif;
+  --h3-font-weight: 700;
+  --h3-font-size: 1.33rem;
+  --p-font: 'Raleway', sans-serif;
+  --p-font-weight: 400;
+  --p-font-size: 1rem;
+  --p-line-height: 1.5;
+  --li-font: 'Raleway', sans-serif;
+  --li-font-weight: 400;
+  --li-font-size: 1rem;
+  --button-font: 'Open Sans', sans-serif;
+}
