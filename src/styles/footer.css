@@ -1,0 +1,22 @@
+.axit-footer {
+    max-width: 1510px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 1);
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.axit-footer__icon {
+    display: flex;
+    gap: 30px;
+    color:white;
+    /* если не подгрузится картинка, дабы видно было описание */
+}
+
+.axit-footer__copyright {
+    color: rgba(255, 255, 255, 0.5);
+}
+
