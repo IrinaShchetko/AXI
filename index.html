@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=S, initial-scale=1.0">
     <link href="./src/styles/reset.css" rel="stylesheet">
+    <link href="./src/styles/headers.css" rel="stylesheet">
     <link href="./src/styles/container.css" rel="stylesheet">
+    <link href="./src/styles/social.css" rel="stylesheet">
     <link href="./src/styles/tabs.css" rel="stylesheet">
-    <link href="./src/styles/header.css" rel="stylesheet">
+    <link href="./src/styles/section-header.css" rel="stylesheet">
     <link href="./src/styles/awesome.css" rel="stylesheet">
     <link href="./src/styles/pricing.css" rel="stylesheet">
     <link href="./src/styles/customers.css" rel="stylesheet">
+    <link href="./src/styles/design.css" rel="stylesheet">
+    <link href="./src/styles/footer.css" rel="stylesheet">
     <link href="./src/styles/variables.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +27,40 @@
 </head>
 
 <body>
-    <div class="tabs">
+    <header class="header-axit">
+        <img class="header-axit__logo" src="./src/assets/icons/logo.svg" alt="logo AXIT">
+        <nav class="header-axit__menu">
+                <a class="header-axit__menu--features" href="#features">features</a>
+                <a class="header-axit__menu--about" href="#about">about</a>
+                <a class="header-axit__menu--pricing" href="#pricing">pricing</a>
+                <a class="header-axit__menu--reviews" href="#reviews">Reviews</a>
+                <a class="header-axit__menu--contact" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="design-banner1"><div class="section-header">
+        <img class="header-axit__logo" src="./src/assets/icons/logo.svg" alt="logo AXIT">
+        <h2 class="section-header__title">STYLISH AXURE DESIGN</h2>
+        <hr class="section-header__separator">
+        <p class="section-header__description">Use the sections you need, remove the ones you don't. Create
+            gorgeous prototypes faster than ever!</p>
+    </div>
+
+    <button class="design-banner1__button" type="button">download</button></section>
+    <section class="social">
+        <div class="social__content">
+            <h2 class="social__content--title">Social Media</h2>
+            <p lang="la" class="social__content--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean euismod bibendum laoreet.</p>
+        </div>
+        <img class="social__icon--facebook" src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook">
+        <img class="social__icon--twitter" src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter">
+        <img class="social__icon--linkedin" src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin">
+        <img class="social__icon--pinterest" src="./src/assets/icons/pinterest_icon.svg" alt="icon of Pinterest">
+        <img class="social__icon--instagram" src="./src/assets/icons/instagram_icon.svg" alt="icon of Instagram">
+        <img class="social__icon--github" src="./src/assets/icons/github_icon.svg" alt="icon of Github">
+        <img class="social__icon--rss" src="./src/assets/icons/rss_icon.svg" alt="rss icon">
+    </section>
+    <div id="features" class="tabs">
         <div class="container">
             <div class="tabs__buttons">
                 <button class="tabs__item--active" type="button">tab 1</button>
@@ -48,7 +85,7 @@
             </div>
         </div>
     </div>
-    <section class="awesome">
+    <section id="about" class="awesome">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-header__title">WHY THIS IS AWESOME</h2>
@@ -60,7 +97,8 @@
                 <div class="section-awesome__item">
                     <img class="section-awesome__item--img" src="./src/assets/icons/LightBulb.svg" alt="icon ligthbulb">
                     <h3 class="section-awesome__item--title">Thoughtful Design</h3>
-                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
                         elit.
                         Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                         viverra.
@@ -69,7 +107,8 @@
                 <div class="section-awesome__item">
                     <img class="section-awesome__item--img" src="./src/assets/icons/keyboard.svg" alt="icon keyboard">
                     <h3 class="section-awesome__item--title">Thoughtful Design</h3>
-                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
                         elit.
                         Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                         viverra.
@@ -78,7 +117,8 @@
                 <div class="section-awesome__item">
                     <img class="section-awesome__item--img" src="./src/assets/icons/voltage.svg" alt="icon viltage">
                     <h3 class="section-awesome__item--title">Thoughtful Design</h3>
-                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
                         elit.
                         Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                         viverra.
@@ -87,12 +127,13 @@
             </div>
         </div>
     </section>
-    <section class="pricing">
+    <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-header__title">pricing options</h2>
                 <hr class="section-header__separator">
-                <p lang="la" class="section-header__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p lang="la" class="section-header__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.</p>
             </div>
             <div class="pricing-alternatives">
                 <ul class="pricing-alternatives__item">
@@ -108,7 +149,7 @@
                     <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
                     <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
                 </ul>
-                <ul class="pricing-alternatives__item--optima">
+                <ul class="pricing-alternatives__item">
                     <li class="pricing-alternatives__item--title">
                         <h2>Optima</h2>
                     </li>
@@ -137,12 +178,13 @@
             </div>
         </div>
     </section>
-    <section class="customers">
+    <section id="reviews" class="customers">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-header__title">what our customers are saying</h2>
                 <hr class="section-header__separator">
-                <p lang="la" class="section-header__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p lang="la" class="section-header__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.</p>
             </div>
             <div class="section-customers">
                 <div class="section-customers__item">
@@ -190,6 +232,35 @@
             </div>
         </div>
     </section>
+    <section class="design-banner2">
+        <!-- <div class="container"> -->
+<!-- 
+            <div class="section-design"> -->
+                <div class="section-header">
+                    <h2 class="section-header__title">STYLISH AXURE DESIGN</h2>
+                    <hr class="section-header__separator">
+                    <p class="section-header__description">Use the sections you need, remove the ones you don't. Create
+                        gorgeous prototypes faster than ever!</p>
+                </div>
+
+                <button class="design-banner2__button" type="button">download</button>
+            <!-- </div> -->
+        <!-- </div> -->
+    </section>
+    <footer class="axit-footer">
+        <div class="axit-footer__icon">
+            <img class="axit-footer__icon--facebook" src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook">
+            <img class="axit-footer__icon--twitter" src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter">
+            <img class="axit-footer__icon--linkedin" src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin">
+            <img class="axit-footer__icon--pinterest" src="./src/assets/icons/pinterest_icon.svg"
+                alt="icon of Pinterest">
+            <img class="axit-footer__icon--instagram" src="./src/assets/icons/instagram_icon.svg"
+                alt="icon of Instagram">
+            <img class="axit-footer__icon--github" src="./src/assets/icons/github_icon.svg" alt="icon of Github">
+            <img class="axit-footer__icon--rss" src="./src/assets/icons/rss_icon.svg" alt="rss icon">
+        </div>
+        <p class="axit-footer__copyright">© 2015 Axure Themes</p>
+    </footer>
 </body>
 
 </html>

@@ -29,6 +29,6 @@ li {
     font-weight: var(--li-font-weight);
 }
 
-button {
+button, a {
     font-family: var(--button-font);
 }
