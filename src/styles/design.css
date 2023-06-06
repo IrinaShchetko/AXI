@@ -14,3 +14,19 @@
   
     position: relative;
 }
+.design-banner2 {
+    max-width: 1510px;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    background-image: url(../assets/images/сity_panorama.png);
+    background-color: gray;
+    background-size:cover;
+    background-position: center;
+  
+    position: relative;
+}
