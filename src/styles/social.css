@@ -16,3 +16,8 @@
 .social__content--description {
     margin-top: 18px;
 }
+.social__icon--item{
+    width: 70px;
+    height: 70px;
+    margin-left: 44px;
+}

@@ -1,0 +1,103 @@
+.banner {
+    max-width: 1510px;
+    margin: 0 auto;
+    min-height: 1026px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner__background-image {
+    background-image: url(../assets/images/street_view.png);
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.banner__background-image::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.banner__content {
+    max-width: 670px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    row-gap: 50px;
+}
+
+.banner .section-header__description,
+.header-axit__logo {
+    max-width: 270px;
+}
+
+.banner .section-header,
+.banner .section-header__description {
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner .section-header__title {
+    font-weight: 500;
+    font-size: 2.67rem;
+}
+
+.banner .section-header__separator {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.banner__button {
+    padding: 10px 50px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    width: 270px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner__form {
+    align-self: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+.banner__form--authorization {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__form--title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.banner__form--authorization-input {
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    margin-top: 3.33rem;
+    padding: 15px 10px;
+    width: 85%;
+}
+
+.banner__form--authorization-submit {
+    width: 100%;
+    margin-top: 4.17rem;
+    padding: 20px;
+    background-color: rgba(236, 121, 121, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.83rem;
+}
+
+.red-word {
+    color: rgba(236, 121, 121, 1);
+}

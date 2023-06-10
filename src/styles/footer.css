@@ -9,14 +9,19 @@
     align-items: center;
     row-gap: 20px;
 }
-.axit-footer__icon {
+
+.axit-footer__icons {
     display: flex;
     gap: 30px;
-    color:white;
+    color: white;
     /* если не подгрузится картинка, дабы видно было описание */
+}
+
+.axit-footer__icons--item {
+    width: 53px;
+    height: 53px;
 }
 
 .axit-footer__copyright {
     color: rgba(255, 255, 255, 0.5);
 }
-

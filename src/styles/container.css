@@ -31,4 +31,6 @@ li {
 
 button, a {
     font-family: var(--button-font);
+    font-size: var(--button-font-size);
+    font-weight: var(--button-font-weight);
 }
