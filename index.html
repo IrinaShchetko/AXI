@@ -278,20 +278,24 @@
             <form class="contact__form" id="contact-form" name="ContactForm" method="post" spellcheck="true">
                 <div class="contact__form--authorization">
                     <label for="name-contact"></label>
+                    <button class="contact__form--reset-name" form="contact-form" type="reset"></button>
                     <input class="contact__form--authorization-input" type="text" id="name-contact"
                         name="ContactFormName" placeholder="name" autocomplete="name" required>
                     <label for="email-contact"></label>
+                    <button class="contact__form--reset-email" form="contact-form" type="reset"></button>
                     <input class="contact__form--authorization-input" type="email" id="email-contact"
-                        name="ContactFormEmail" placeholder="Email" autocomplete="email" required>
+                        name="ContactFormEmail" placeholder="Email" autocomplete="email" required> 
                     <label for="password-contact"></label>
+                    <button class="contact__form--reset-password" form="contact-form" type="reset"></button>
                     <input class="contact__form--authorization-input" type="password" id="password-contact"
                         name="ContactFormPassword" placeholder="Password" required minlength="5">
                 </div>
                 <label for="message-contact"></label>
+                <button class="contact__form--reset-message" form="contact-form" type="reset"></button>
                 <textarea class="contact__form--feedback" id="message-contact" name="ContactFormMessage"
                     placeholder="message"  rows="10" required></textarea>
+                    <button class="contact__form--submit" form="contact-form" type="submit">Send Message</button>
             </form>
-            <button class="contact__form--submit" form="contact-form" type="submit">Send Message</button>
         </div>
     </section>
     <footer class="axit-footer">

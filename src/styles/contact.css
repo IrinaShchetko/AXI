@@ -9,12 +9,14 @@
   flex-direction: row;
   justify-content: center;
   gap: 30px;
+  position: relative;
 }
 
 .contact__form--authorization {
   display: flex;
   flex-direction: column;
   min-width: calc(100%/2);
+  position: relative;
 }
 
 .contact__form--authorization-input {
@@ -38,4 +40,35 @@
   padding: 15px 100px;
   background-color: rgba(236, 121, 121, 1);
   color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 90%;
+}
+
+.contact__form--reset-name::after,
+.contact__form--reset-email::after,
+.contact__form--reset-password::after,
+.contact__form--reset-message::after {
+  content: "X";
+  color: rgba(189, 189, 189, 1);
+  position: absolute;
+}
+
+.contact__form--reset-name::after {
+  top: 10%;
+  right: 1%;
+}
+
+.contact__form--reset-email::after {
+  top: 45%;
+  right: 1%;
+}
+
+.contact__form--reset-password::after {
+  top: 80%;
+  right: 1%;
+}
+
+.contact__form--reset-message::after {
+  top: 10%;
+  left: 102%;
 }
