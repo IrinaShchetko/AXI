@@ -3,10 +3,14 @@ html {
 }
 
 .header-axit {
-    max-width: 1510px;
-    margin: 0 auto;
+    position: fixed;
+    width: 1510px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
     background-color: rgba(0, 0, 0, 1);
-    height: 75px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;

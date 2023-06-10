@@ -22,8 +22,8 @@
 
 .design__background-image::after {
     content: "";
-    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     min-height: 100%;
     z-index: -1;
