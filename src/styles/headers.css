@@ -26,8 +26,8 @@ html {
     color: rgba(255, 255, 255, 1);
     padding: 0 15px;
     text-decoration: none;
-    text-transform: capitalize;
     font-size: 0.78rem;
+    text-transform: capitalize;
 }
 
 a:visited {
