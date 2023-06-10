@@ -13,7 +13,7 @@
 .axit-footer__icons {
     display: flex;
     gap: 30px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     /* если не подгрузится картинка, дабы видно было описание */
 }
 
