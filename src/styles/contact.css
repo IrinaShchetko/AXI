@@ -44,31 +44,34 @@
   top: 90%;
 }
 
-.contact__form--reset-name::after,
-.contact__form--reset-email::after,
-.contact__form--reset-password::after,
-.contact__form--reset-message::after {
+.contact__form--reset-first::before,
+.contact__form--reset-first::after {
   content: "X";
-  color: rgba(189, 189, 189, 1);
   position: absolute;
 }
 
-.contact__form--reset-name::after {
+.contact__form--reset-first::before {
   top: 10%;
-  right: 1%;
+  left: 40%;
 }
 
-.contact__form--reset-email::after {
+.contact__form--reset-first::after {
   top: 45%;
-  right: 1%;
+  left: 40%;
 }
 
-.contact__form--reset-password::after {
-  top: 80%;
-  right: 1%;
+.contact__form--reset-second::before,
+.contact__form--reset-second::after {
+  content: "X";
+  position: absolute;
 }
 
-.contact__form--reset-message::after {
+.contact__form--reset-second::before {
+  top: 77%;
+  left: 40%;
+}
+
+.contact__form--reset-second::after {
   top: 10%;
-  left: 102%;
+  left: 95%;
 }
