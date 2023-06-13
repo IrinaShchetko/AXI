@@ -95,17 +95,3 @@
 .red-word {
     color: rgba(236, 121, 121, 1);
 }
-
-@media (max-width:768px) {
-.banner {
-    max-width: 1024px;
-}
-
-}
-@media (max-width:560px) {
-    .banner {
-        max-width: 320px;
-    }
-    
-        
-    }
