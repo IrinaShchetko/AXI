@@ -5,6 +5,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -13,7 +14,7 @@
     background-color: gray;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    min-width: 100%;
     min-height: 100%;
     position: absolute;
     z-index: -1;
@@ -100,3 +101,17 @@
 .red-word {
     color: rgba(236, 121, 121, 1);
 }
+
+@media (max-width:768px) {
+.banner {
+    max-width: 1024px;
+}
+
+}
+@media (max-width:560px) {
+    .banner {
+        max-width: 320px;
+    }
+    
+        
+    }
