@@ -7,20 +7,14 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-}
-
-.banner__background-image {
     background-image: url(../assets/images/street_view.png);
     background-color: gray;
     background-size: cover;
     background-position: center;
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
     z-index: -1;
 }
 
-.banner__background-image::after {
+.banner::after {
     content: "";
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
