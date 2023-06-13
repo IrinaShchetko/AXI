@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./src/styles/reset.css" rel="stylesheet">
     <link href="./src/styles/container.css" rel="stylesheet">
     <link href="./src/styles/section-header.css" rel="stylesheet">
@@ -69,20 +69,26 @@
         </div>
     </section>
     <section class="social">
-         <div class="social__content">
+        <div class="social__content">
             <h2 class="social__content--title">Social Media</h2>
             <p lang="la" class="social__content--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Aenean euismod bibendum laoreet.</p>
         </div>
-        <div class="social__icon">
-            <img class="social__icon--item" src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook">
-            <img class="social__icon--item" src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter">
-            <img class="social__icon--item" src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin">
-            <img class="social__icon--item" src="./src/assets/icons/pinterest_icon.svg" alt="icon of Pinterest">
-            <img class="social__icon--item" src="./src/assets/icons/instagram_icon.svg" alt="icon of Instagram">
-            <img class="social__icon--item" src="./src/assets/icons/github_icon.svg" alt="icon of Github">
-            <img class="social__icon--item" src="./src/assets/icons/rss_icon.svg" alt="rss icon">
-        </div>
+        <address class="social__icon">
+            <a href="https://ru-ru.facebook.com/"><img class="social__icon--item"
+                    src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook"></a>
+            <a href="https://twitter.com/?lang=ru"><img class="social__icon--item"
+                    src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter"></a>
+            <a href="https://www.linkedin.com/"><img class="social__icon--item"
+                    src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin"></a>
+            <a href="#"><img class="social__icon--item" src="./src/assets/icons/pinterest_icon.svg"
+                    alt="icon of Pinterest"></a>
+            <a href="https://www.instagram.com/"><img class="social__icon--item"
+                    src="./src/assets/icons/instagram_icon.svg" alt="icon of Instagram"></a>
+            <a href="#"><img class="social__icon--item" src="./src/assets/icons/github_icon.svg"
+                    alt="icon of Github"></a>
+            <a href="#"><img class="social__icon--item" src="./src/assets/icons/rss_icon.svg" alt="rss icon"></a>
+        </address>
     </section>
     <section id="features" class="tabs">
         <div class="container">
@@ -282,30 +288,34 @@
                         name="ContactFormName" placeholder="name" autocomplete="name" required>
                     <label for="email-contact"></label>
                     <input class="contact__form--authorization-input" type="email" id="email-contact"
-                        name="ContactFormEmail" placeholder="Email" autocomplete="email" required> 
+                        name="ContactFormEmail" placeholder="Email" autocomplete="email" required>
                     <label for="password-contact"></label>
                     <input class="contact__form--authorization-input" type="password" id="password-contact"
                         name="ContactFormPassword" placeholder="Password" required minlength="5">
                 </div>
                 <label for="message-contact"></label>
                 <textarea class="contact__form--feedback" id="message-contact" name="ContactFormMessage"
-                    placeholder="message"  rows="10" required></textarea>
-                    <button class="contact__form--reset-first" id="message-contact" type="reset"></button>
-                    <button class="contact__form--reset-second" id="message-contact" type="reset"></button>
-                    <button class="contact__form--submit" form="contact-form" type="submit">Send Message</button>
+                    placeholder="message" rows="10" required></textarea>
+                <button class="contact__form--submit" form="contact-form" type="submit">Send Message</button>
             </form>
         </div>
     </section>
     <footer class="axit-footer">
-        <div class="axit-footer__icons">
-            <img class="axit-footer__icons--item" src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook">
-            <img class="axit-footer__icons--item" src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter">
-            <img class="axit-footer__icons--item" src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin">
-            <img class="axit-footer__icons--item" src="./src/assets/icons/pinterest_icon.svg" alt="icon of Pinterest">
-            <img class="axit-footer__icons--item" src="./src/assets/icons/instagram_icon.svg" alt="icon of Instagram">
-            <img class="axit-footer__icons--item" src="./src/assets/icons/github_icon.svg" alt="icon of Github">
-            <img class="axit-footer__icons--item" src="./src/assets/icons/rss_icon.svg" alt="rss icon">
-        </div>
+        <address class="axit-footer__icons">
+            <a href="https://ru-ru.facebook.com/"><img class="axit-footer__icons--item"
+                    src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook"></a>
+            <a href="https://twitter.com/?lang=ru"><img class="axit-footer__icons--item"
+                    src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter"></a>
+            <a href="https://www.linkedin.com/"><img class="axit-footer__icons--item"
+                    src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin"></a>
+            <a href="#"><img class="axit-footer__icons--item" src="./src/assets/icons/pinterest_icon.svg"
+                    alt="icon of Pinterest"></a>
+            <a href="https://www.instagram.com/"><img class="axit-footer__icons--item"
+                    src="./src/assets/icons/instagram_icon.svg" alt="icon of Instagram"></a>
+            <a href="#"> <img class="axit-footer__icons--item" src="./src/assets/icons/github_icon.svg"
+                    alt="icon of Github"></a>
+            <a href="#"><img class="axit-footer__icons--item" src="./src/assets/icons/rss_icon.svg" alt="rss icon"></a>
+        </address>
         <p class="axit-footer__copyright">© 2015 Axure Themes</p>
     </footer>
 </body>

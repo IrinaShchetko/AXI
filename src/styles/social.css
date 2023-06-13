@@ -5,6 +5,7 @@
     background-color: rgba(248, 239, 239, 1);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 30px;
 }
@@ -16,8 +17,8 @@
 .social__content--description {
     margin-top: 18px;
 }
-.social__icon--item{
-    width: 70px;
-    height: 70px;
-    margin-left: 44px;
+.social__icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }

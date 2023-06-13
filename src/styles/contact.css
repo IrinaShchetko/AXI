@@ -4,11 +4,11 @@
 }
 
 .contact__form {
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   position: relative;
 }
 
@@ -42,36 +42,4 @@
   color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 90%;
-}
-
-.contact__form--reset-first::before,
-.contact__form--reset-first::after {
-  content: "X";
-  position: absolute;
-}
-
-.contact__form--reset-first::before {
-  top: 10%;
-  left: 40%;
-}
-
-.contact__form--reset-first::after {
-  top: 45%;
-  left: 40%;
-}
-
-.contact__form--reset-second::before,
-.contact__form--reset-second::after {
-  content: "X";
-  position: absolute;
-}
-
-.contact__form--reset-second::before {
-  top: 77%;
-  left: 40%;
-}
-
-.contact__form--reset-second::after {
-  top: 10%;
-  left: 95%;
 }

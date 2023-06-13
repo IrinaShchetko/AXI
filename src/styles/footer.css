@@ -2,7 +2,7 @@
     max-width: 1510px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 1);
-    height: 164px;
+    min-height: 164px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,11 +15,6 @@
     gap: 30px;
     color: rgba(255, 255, 255, 1);
     /* если не подгрузится картинка, дабы видно было описание */
-}
-
-.axit-footer__icons--item {
-    width: 53px;
-    height: 53px;
 }
 
 .axit-footer__copyright {

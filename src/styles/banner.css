@@ -23,7 +23,7 @@
     content: "";
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    width: 100%;
+    min-width: 100%;
     min-height: 100%;
     z-index: -1;
 }
@@ -32,11 +32,10 @@
     max-width: 670px;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    justify-content: center;
     row-gap: 50px;
 }
 
-.banner .section-header__description,
 .header-axit__logo {
     max-width: 270px;
 }
@@ -59,7 +58,7 @@
 .banner__button {
     padding: 10px 50px;
     border: 2px solid rgba(255, 255, 255, 1);
-    width: 270px;
+    max-width: 270px;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -70,7 +69,7 @@
 }
 
 .banner__form--authorization {
-    width: 470px;
+    min-width: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,15 +83,15 @@
 .banner__form--authorization-input {
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
-    margin-top: 3.33rem;
+    margin-top: 2rem;
     padding: 15px 10px;
     width: 85%;
 }
 
 .banner__form--authorization-submit {
     width: 100%;
-    margin-top: 4.17rem;
-    padding: 20px;
+    margin-top: 3rem;
+    padding: 10px 50px;
     background-color: rgba(236, 121, 121, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 0.83rem;
