@@ -1,37 +1,40 @@
 .banner {
-    max-width: 1510px;
-    margin: 0 auto;
-    min-height: 1026px;
+    width: 100vw;
+    height: 100vh;
     position: relative;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
     background-image: url(../assets/images/street_view.png);
     background-color: gray;
     background-size: cover;
     background-position: center;
-    z-index: -1;
 }
 
 .banner::after {
     content: "";
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 
 .banner__content {
-    width: calc(100%/2 - 30px);
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner__descriprion {
+    max-width: 670px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 50px;
+    row-gap: 20px;
 }
 
-.header-axit__logo {
+.axit__logo {
     max-width: 270px;
 }
 
@@ -50,7 +53,7 @@
     border: 1px solid rgba(255, 255, 255, 1);
 }
 
-.banner__button {
+.banner__description-button {
     padding: 10px 50px;
     border: 2px solid rgba(255, 255, 255, 1);
     max-width: 270px;
@@ -58,24 +61,23 @@
 }
 
 .banner__form {
-    width: calc(100%/2 -30px);
     align-self: center;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
 }
 
-.banner__form--authorization {
+.banner__form-authorization {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.banner__form--title {
-    padding: 15px 30px;
+.banner__form-title {
+    padding: 15px 50px;
     text-align: center;
 }
 
-.banner__form--authorization-input {
+.banner__form-authorization-input {
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
     margin-top: 2rem;
@@ -83,13 +85,15 @@
     width: 85%;
 }
 
-.banner__form--authorization-submit {
+.banner__form-authorization-submit {
     width: 100%;
     margin-top: 3rem;
     padding: 10px 50px;
     background-color: rgba(236, 121, 121, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 0.83rem;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .red-word {

@@ -9,7 +9,7 @@
     <link href="./src/styles/container.css" rel="stylesheet">
     <link href="./src/styles/section-header.css" rel="stylesheet">
     <link href="./src/styles/variables.css" rel="stylesheet">
-    <link href="./src/styles/headers.css" rel="stylesheet">
+    <link href="./src/styles/header.css" rel="stylesheet">
     <link href="./src/styles/banner.css" rel="stylesheet">
     <link href="./src/styles/social.css" rel="stylesheet">
     <link href="./src/styles/tabs.css" rel="stylesheet">
@@ -30,63 +30,69 @@
 
 <body>
     <header class="header-axit">
-        <a href="#top"><img class="header-axit__logo" src="./src/assets/icons/logo.svg" alt="logo AXIT"></a>
+        <a href="#"><img class="header-axit__logo" src="./src/assets/icons/logo.svg" alt="logo AXIT"></a>
         <nav class="header-axit__menu">
-            <a class="header-axit__menu--features" href="#features">features</a>
-            <a class="header-axit__menu--about" href="#about">about</a>
-            <a class="header-axit__menu--pricing" href="#pricing">pricing</a>
-            <a class="header-axit__menu--reviews" href="#reviews">Reviews</a>
-            <a class="header-axit__menu--contact" href="#contact">Contact</a>
+            <ul class="header-axit__menu-list">
+                <li class="header-axit__menu-item"> <a href="#features">features</a></li>
+                <li class="header-axit__menu-item"><a href="#about">about</a></li>
+                <li class="header-axit__menu-item"><a href="#pricing">pricing</a></li>
+                <li class="header-axit__menu-item"><a href="#reviews">Reviews</a></li>
+                <li class="header-axit__menu-item"><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <section class="banner">
-        <div class="banner__content" id="top">
-            <img class="header-axit__logo" src="./src/assets/icons/logo.svg" alt="logo AXIT">
-            <div class="section-header">
-                <h2 class="section-header__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
-                <hr class="section-header__separator">
-                <p lang="la" class="section-header__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </p>
+        <div class="banner__content">
+            <div class="banner__descriprion" id="top">
+                <img class="axit__logo" src="./src/assets/icons/logo.svg" alt="logo AXIT">
+                <div class="section-header">
+                    <h2 class="section-header__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                    <hr class="section-header__separator">
+                    <p lang="la" class="section-header__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit
+                    </p>
+                </div>
+                <button class="banner__description-button" type="button">Download</button>
             </div>
-            <button class="banner__button" type="button">Download</button>
-        </div>
-        <div class="banner__form">
-            <h3 class="banner__form--title">Try Your <span class="red-word">FREE</span> Trial Today</h3>
-            <form class="banner__form--authorization" id="authorization-form" name="AuthorizationForm" method="post">
-                <label for="name-authorization"></label>
-                <input class="banner__form--authorization-input" type="text" id="name-authorization" placeholder="name"
-                    name="AuthorizationFormName" autocomplete="name" autofocus required>
-                <label for="email-authorization"></label>
-                <input class="banner__form--authorization-input" type="email" id="email-authorization"
-                    placeholder="email" name="AuthorizationFormEmail" autocomplete="email" required>
-                <label for="password-authorization"></label>
-                <input class="banner__form--authorization-input" type="password" id="password-authorization"
-                    placeholder="password" name="AuthorizationFormpassword" required minlength="5">
-                <button class="banner__form--authorization-submit" form="authorization-form" type="submit">Get
-                    Started</button>
-            </form>
+            <div class="banner__form">
+                <h3 class="banner__form-title">Try Your <span class="red-word">FREE</span> Trial Today</h3>
+                <form class="banner__form-authorization" id="authorization-form" name="authorization-form"
+                    method="post">
+                    <label for="name-authorization">name</label>
+                    <input class="banner__form-authorization-input" type="text" id="name-authorization"
+                        placeholder="name" name="name-authorization" autocomplete="name" autofocus required>
+                    <label for="email-authorization">email</label>
+                    <input class="banner__form-authorization-input" type="email" id="email-authorization"
+                        placeholder="email" name="email-authorization" autocomplete="email" required>
+                    <label for="password-authorization">password</label>
+                    <input class="banner__form-authorization-input" type="password" id="password-authorization"
+                        placeholder="password" name="password-authorization" required minlength="5">
+                    <button class="banner__form-authorization-submit" form="authorization-form" type="submit">Get
+                        Started</button>
+                </form>
+            </div>
         </div>
     </section>
     <section class="social">
         <div class="social__content">
-            <h2 class="social__content--title">Social Media</h2>
-            <p lang="la" class="social__content--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h2 class="social__content-title">Social Media</h2>
+            <p lang="la" class="social__content-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Aenean euismod bibendum laoreet.</p>
         </div>
-        <address class="social__icon">
-            <a href="https://ru-ru.facebook.com/"><img class="social__icon--item"
+        <address class="social__icons">
+            <a href="https://ru-ru.facebook.com/"><img class="social__icons-item"
                     src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook"></a>
-            <a href="https://twitter.com/?lang=ru"><img class="social__icon--item"
+            <a href="https://twitter.com/?lang=ru"><img class="social__icons-item"
                     src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter"></a>
-            <a href="https://www.linkedin.com/"><img class="social__icon--item"
+            <a href="https://www.linkedin.com/"><img class="social__icons-item"
                     src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin"></a>
-            <a href="#"><img class="social__icon--item" src="./src/assets/icons/pinterest_icon.svg"
+            <a href="#"><img class="social__icons-item" src="./src/assets/icons/pinterest_icon.svg"
                     alt="icon of Pinterest"></a>
-            <a href="https://www.instagram.com/"><img class="social__icon--item"
+            <a href="https://www.instagram.com/"><img class="social__icons-item"
                     src="./src/assets/icons/instagram_icon.svg" alt="icon of Instagram"></a>
-            <a href="#"><img class="social__icon--item" src="./src/assets/icons/github_icon.svg"
+            <a href="#"><img class="social__icons-item" src="./src/assets/icons/github_icon.svg"
                     alt="icon of Github"></a>
-            <a href="#"><img class="social__icon--item" src="./src/assets/icons/rss_icon.svg" alt="rss icon"></a>
+            <a href="#"><img class="social__icons-item" src="./src/assets/icons/rss_icon.svg" alt="rss icon"></a>
         </address>
     </section>
     <section id="features" class="tabs">
@@ -124,9 +130,9 @@
             </div>
             <div class="section-awesome">
                 <div class="section-awesome__item">
-                    <img class="section-awesome__item--img" src="./src/assets/icons/LightBulb.svg" alt="icon ligthbulb">
-                    <h3 class="section-awesome__item--title">Thoughtful Design</h3>
-                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur
+                    <img class="section-awesome__item-img" src="./src/assets/icons/LightBulb.svg" alt="icon ligthbulb">
+                    <h3 class="section-awesome__item-title">Thoughtful Design</h3>
+                    <p lang="la" class="section-awesome__item-description">Lorem ipsum dolor sit amet, consectetur
                         adipiscing
                         elit.
                         Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
@@ -134,9 +140,9 @@
                     </p>
                 </div>
                 <div class="section-awesome__item">
-                    <img class="section-awesome__item--img" src="./src/assets/icons/keyboard.svg" alt="icon keyboard">
-                    <h3 class="section-awesome__item--title">Thoughtful Design</h3>
-                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur
+                    <img class="section-awesome__item-img" src="./src/assets/icons/keyboard.svg" alt="icon keyboard">
+                    <h3 class="section-awesome__item-title">Thoughtful Design</h3>
+                    <p lang="la" class="section-awesome__item-description">Lorem ipsum dolor sit amet, consectetur
                         adipiscing
                         elit.
                         Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
@@ -144,9 +150,9 @@
                     </p>
                 </div>
                 <div class="section-awesome__item">
-                    <img class="section-awesome__item--img" src="./src/assets/icons/voltage.svg" alt="icon viltage">
-                    <h3 class="section-awesome__item--title">Thoughtful Design</h3>
-                    <p lang="la" class="section-awesome__item--description">Lorem ipsum dolor sit amet, consectetur
+                    <img class="section-awesome__item-img" src="./src/assets/icons/voltage.svg" alt="icon viltage">
+                    <h3 class="section-awesome__item-title">Thoughtful Design</h3>
+                    <p lang="la" class="section-awesome__item-description">Lorem ipsum dolor sit amet, consectetur
                         adipiscing
                         elit.
                         Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
@@ -166,43 +172,43 @@
             </div>
             <div class="pricing-alternatives">
                 <ul class="pricing-alternatives__item">
-                    <li class="pricing-alternatives__item--title">
+                    <li class="pricing-alternatives__item-title">
                         <h2>Basic</h2>
                     </li>
-                    <li class="pricing-alternatives__item--cost">$10</li>
-                    <li class="pricing-alternatives__item--description">Free for life</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-cost">$10</li>
+                    <li class="pricing-alternatives__item-description">Free for life</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
                 </ul>
                 <ul class="pricing-alternatives__item">
-                    <li class="pricing-alternatives__item--title">
+                    <li class="pricing-alternatives__item-title">
                         <h2>Optima</h2>
                     </li>
-                    <li class="pricing-alternatives__item--cost">$20</li>
-                    <li class="pricing-alternatives__item--description">Free for life</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-cost">$20</li>
+                    <li class="pricing-alternatives__item-description">Free for life</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
                 </ul>
                 <ul class="pricing-alternatives__item">
-                    <li class="pricing-alternatives__item--title">
+                    <li class="pricing-alternatives__item-title">
                         <h2>Pro</h2>
                     </li>
-                    <li class="pricing-alternatives__item--cost">$30</li>
-                    <li class="pricing-alternatives__item--description">Free for life</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
-                    <li class="pricing-alternatives__item--characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-cost">$30</li>
+                    <li class="pricing-alternatives__item-description">Free for life</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
+                    <li class="pricing-alternatives__item-characteristic">1 gb of space</li>
                 </ul>
             </div>
         </div>
@@ -217,45 +223,45 @@
             </div>
             <div class="section-customers">
                 <div class="section-customers__item">
-                    <p lang="la" class="section-customers__item--text">Lorem ipsum dolor sit amet,
+                    <p lang="la" class="section-customers__item-text">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
                         accusamus expedita repellat similique
                         odio aspernatur ex, architecto eaque
                         quo suscipit.</p>
-                    <div class="section-customers__item--reference"></div>
-                    <div class="section-customers__item--data">
-                        <img class="section-customers__item--data-photo" src="./src/assets/images/Madsen.jpg"
+                    <div class="section-customers__item-reference"></div>
+                    <div class="section-customers__item-data">
+                        <img class="section-customers__item-photo" src="./src/assets/images/Madsen.jpg"
                             alt="photo of D.Madsen">
-                        <h3 class="section-customers__item--data-name">Davis Rhiel Madsen</h3>
-                        <p class="section-customers__item--data-vocation">Manager</p>
+                        <h3 class="section-customers__item-name">Davis Rhiel Madsen</h3>
+                        <p class="section-customers__item-vocation">Manager</p>
                     </div>
                 </div>
                 <div class="section-customers__item">
-                    <p lang="la" class="section-customers__item--text">Lorem ipsum dolor sit amet,
+                    <p lang="la" class="section-customers__item-text">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
                         accusamus expedita repellat similique
                         odio aspernatur ex, architecto eaque
                         quo suscipit.</p>
-                    <div class="section-customers__item--reference"></div>
-                    <div class="section-customers__item--data">
-                        <img class="section-customers__item--data-photo" src="./src/assets/images/Rosser.jpg"
+                    <div class="section-customers__item-reference"></div>
+                    <div class="section-customers__item-data">
+                        <img class="section-customers__item-photo" src="./src/assets/images/Rosser.jpg"
                             alt="photo of J.Rosser">
-                        <h3 class="section-customers__item--data-name">Jaydon Rosser</h3>
-                        <p class="section-customers__item--data-vocation">Manager</p>
+                        <h3 class="section-customers__item-name">Jaydon Rosser</h3>
+                        <p class="section-customers__item-vocation">Manager</p>
                     </div>
                 </div>
                 <div class="section-customers__item">
-                    <p lang="la" class="section-customers__item--text">Lorem ipsum dolor sit amet,
+                    <p lang="la" class="section-customers__item-text">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
                         accusamus expedita repellat similique
                         odio aspernatur ex, architecto eaque
                         quo suscipit.</p>
-                    <div class="section-customers__item--reference"></div>
-                    <div class="section-customers__item--data">
-                        <img class="section-customers__item--data-photo" src="./src/assets/images/Dorwart.jpg"
+                    <div class="section-customers__item-reference"></div>
+                    <div class="section-customers__item-data">
+                        <img class="section-customers__item-photo" src="./src/assets/images/Dorwart.jpg"
                             alt="photo of C.Dorwart">
-                        <h3 class="section-customers__item--data-name">Cooper Dorwart</h3>
-                        <p class="section-customers__item--data-vocation">Manager</p>
+                        <h3 class="section-customers__item-name">Cooper Dorwart</h3>
+                        <p class="section-customers__item-vocation">Manager</p>
                     </div>
                 </div>
             </div>
@@ -281,39 +287,41 @@
                     elit.</p>
             </div>
             <form class="contact__form" id="contact-form" name="ContactForm" method="post" spellcheck="true">
-                <div class="contact__form--authorization">
-                    <label for="name-contact"></label>
-                    <input class="contact__form--authorization-input" type="text" id="name-contact"
-                        name="ContactFormName" placeholder="name" autocomplete="name" required>
-                    <label for="email-contact"></label>
-                    <input class="contact__form--authorization-input" type="email" id="email-contact"
-                        name="ContactFormEmail" placeholder="Email" autocomplete="email" required>
-                    <label for="password-contact"></label>
-                    <input class="contact__form--authorization-input" type="password" id="password-contact"
-                        name="ContactFormPassword" placeholder="Password" required minlength="5">
+                <div class="contact__form-feedback">
+                    <div class="contact__authorization">
+                        <label for="name-contact">name</label>
+                        <input class="contact__form-feedback-input" type="text" id="name-contact" name="name-contact"
+                            placeholder="name" autocomplete="name" required>
+                        <label for="email-contact">email</label>
+                        <input class="contact__form-feedback-input" type="email" id="email-contact" name="email-contact"
+                            placeholder="Email" autocomplete="email" required>
+                        <label for="password-contact">password</label>
+                        <input class="contact__form-feedback-input" type="password" id="password-contact"
+                            name="password-contact" placeholder="Password" required minlength="5">
+                    </div>
+                    <label for="message-contact">message</label>
+                    <textarea class="contact__form-feedback-message" id="message-contact" name="message-contact"
+                        placeholder="message" rows="10" required></textarea>
                 </div>
-                <label for="message-contact"></label>
-                <textarea class="contact__form--feedback" id="message-contact" name="ContactFormMessage"
-                    placeholder="message" rows="10" required></textarea>
-                <button class="contact__form--submit" form="contact-form" type="submit">Send Message</button>
+                <button class="contact__form-submit" form="contact-form" type="submit">Send Message</button>
             </form>
         </div>
     </section>
     <footer class="axit-footer">
         <address class="axit-footer__icons">
-            <a href="https://ru-ru.facebook.com/"><img class="axit-footer__icons--item"
+            <a href="https://ru-ru.facebook.com/"><img class="axit-footer__icons-item"
                     src="./src/assets/icons/facebook_icon.svg" alt="icon of Facebook"></a>
-            <a href="https://twitter.com/?lang=ru"><img class="axit-footer__icons--item"
+            <a href="https://twitter.com/?lang=ru"><img class="axit-footer__icons-item"
                     src="./src/assets/icons/twitter_icon.svg" alt="icon of Twitter"></a>
-            <a href="https://www.linkedin.com/"><img class="axit-footer__icons--item"
+            <a href="https://www.linkedin.com/"><img class="axit-footer__icons-item"
                     src="./src/assets/icons/linkedin_icon.svg" alt="icon of Linkedin"></a>
-            <a href="#"><img class="axit-footer__icons--item" src="./src/assets/icons/pinterest_icon.svg"
+            <a href="#"><img class="axit-footer__icons-item" src="./src/assets/icons/pinterest_icon.svg"
                     alt="icon of Pinterest"></a>
-            <a href="https://www.instagram.com/"><img class="axit-footer__icons--item"
+            <a href="https://www.instagram.com/"><img class="axit-footer__icons-item"
                     src="./src/assets/icons/instagram_icon.svg" alt="icon of Instagram"></a>
-            <a href="#"> <img class="axit-footer__icons--item" src="./src/assets/icons/github_icon.svg"
+            <a href="#"> <img class="axit-footer__icons-item" src="./src/assets/icons/github_icon.svg"
                     alt="icon of Github"></a>
-            <a href="#"><img class="axit-footer__icons--item" src="./src/assets/icons/rss_icon.svg" alt="rss icon"></a>
+            <a href="#"><img class="axit-footer__icons-item" src="./src/assets/icons/rss_icon.svg" alt="rss icon"></a>
         </address>
         <p class="axit-footer__copyright">© 2015 Axure Themes</p>
     </footer>

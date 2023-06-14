@@ -6,6 +6,8 @@
 html {
     font-size: 18px;
     /* rem */
+    scroll-behavior: smooth;
+    scroll-padding: 60px;
 }
 
 button {
@@ -26,4 +28,14 @@ ol {
     font-weight: 400;
     font-size: 0.78rem;
     text-transform: capitalize;
+}
+
+a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+label {
+    display: none;
 }

@@ -1,6 +1,5 @@
-.container {
+.pricing {
     background-color: var(--primary-color);
-    padding: 2.78rem 0;
 }
 
 .pricing-alternatives {
@@ -11,32 +10,32 @@
     min-height: 470px;
 }
 
-.pricing-alternatives__item--title,
-.pricing-alternatives__item--cost,
-.pricing-alternatives__item--description,
-.pricing-alternatives__item--characteristic {
+.pricing-alternatives__item-title,
+.pricing-alternatives__item-cost,
+.pricing-alternatives__item-description,
+.pricing-alternatives__item-characteristic {
     border: 1px solid #F5F5F5;
     background-color: #333333;
     padding: 10px 100px;
     text-align: center;
 }
 
-.pricing-alternatives__item--title {
+.pricing-alternatives__item-title {
     font-size: 1.33rem;
     color: #FFFFFF;
 }
 
-.pricing-alternatives__item--cost {
+.pricing-alternatives__item-cost {
     font-weight: 700;
     font-size: 2rem;
     color: #FFFFFF;
 }
 
-.pricing-alternatives__item--description {
+.pricing-alternatives__item-description {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.pricing-alternatives__item--characteristic {
+.pricing-alternatives__item-characteristic {
     background-color: #FFFFFF;
     color: #86878B;
 }
