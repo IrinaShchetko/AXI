@@ -1,6 +1,6 @@
 .banner {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     display: flex;
     background-image: url(../assets/images/street_view.png);
@@ -21,6 +21,7 @@
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
+    justify-content: center;
     gap: 20px;
     position: relative;
     z-index: 1;
@@ -32,10 +33,6 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 20px;
-}
-
-.axit__logo {
-    max-width: 270px;
 }
 
 .banner .section-header,
@@ -61,6 +58,7 @@
 }
 
 .banner__form {
+    min-width: 470px;
     align-self: center;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
@@ -73,7 +71,7 @@
 }
 
 .banner__form-title {
-    padding: 15px 50px;
+    padding: 15px 2.78rem;
     text-align: center;
 }
 
@@ -98,4 +96,46 @@
 
 .red-word {
     color: rgba(236, 121, 121, 1);
+}
+
+@media (max-width:1024px) {
+    .banner__form {
+        min-width: 398px;
+    }
+}
+
+@media (max-width:768px) {
+    .banner__form {
+        min-width: 320px;
+    }
+}
+
+@media (max-width:560px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .banner__content {
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .axit__logo {
+        display: none;
+    }
+
+    .banner .section-header,
+    .banner .section-header__description {
+        text-align: center;
+    }
+
+    .banner__description-button {
+        margin: 0 auto;
+    }
+
+    .banner__form {
+        margin-bottom: 20px;
+        min-width: 288px;
+    }
+
 }

@@ -5,16 +5,24 @@
 
 .contact__form-feedback {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 30px;
 }
 
 .contact__authorization {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.contact__authorization,
+.contact__form-feedback-message {
+  width: 50ch;
 }
 
 .contact__form-feedback-input {
-  min-height: calc(100%/3);
+  height: calc(100%/3);
+  width: 100%;
 }
 
 .contact__form-feedback-message {
@@ -25,8 +33,7 @@
 .contact__form-feedback-message {
   border: none;
   border-bottom: 1px solid rgba(189, 189, 189, 1);
-  padding: 15px 15px;
-  width: 50ch;
+  padding: 15px 10px;
 }
 
 .contact__form-submit {

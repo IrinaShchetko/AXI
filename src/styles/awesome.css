@@ -7,7 +7,7 @@
 }
 
 .section-awesome__item-img {
-    width: 9.44rem;
+    max-width: 9.44rem;
 }
 
 .section-awesome__item-title {
@@ -16,4 +16,25 @@
 
 .section-awesome__item-description {
     margin-top: 2rem;
+}
+
+@media (max-width:1200px) {
+    .section-awesome {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:768px) {
+    .section-awesome {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:560px) {
+    .section-awesome {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

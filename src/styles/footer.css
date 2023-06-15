@@ -1,5 +1,5 @@
 .axit-footer {
-    max-width: 100vw;
+    width: 100vw;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 1);
     min-height: 164px;
@@ -17,6 +17,22 @@
     /* если не подгрузится картинка, дабы видно было описание */
 }
 
+.axit-footer__icons-item {
+    width: 2.94rem;
+    height: 2.94rem;
+}
+
 .axit-footer__copyright {
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width:560px) {
+    .axit-footer__icons {
+        gap: 15px;
+    }
+
+    .axit-footer__icons-item {
+        width: 1.85rem;
+        height: 1.85rem;
+    }
 }
